@@ -13,26 +13,47 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Dark Mode Style */
+.dark-mode{
+  background-color: black;
+}
+
+
+/* Searchbar Style */
+.style{
+  outline: none;
+  border: none;
+  background-color: #f0f1f3;
+  margin-left: 10px;
+}
+
+
+.container{
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+/* AddNote component Style */
+.background{
+  background-color: blueviolet;
+  border: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+textarea{
+  resize: none;
+  border: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+textarea:focus{
+  outline: none;
 }
+
+/* Delete icon style */
+.hover-effect:hover{
+  cursor: pointer;
+  size: 1.9rem;
+  color: brown;
+}
+
